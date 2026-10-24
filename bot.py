@@ -19,7 +19,7 @@ RTMP_SERVER = f"{RTMP_URL}/{STREAM_KEY}"
 M3U_URL = os.getenv("M3U_URL") or "https://raw.githubusercontent.com/braveheart1983/ataktv/51607fb466f92088717aed58eda4e6f8124cd0ec/atakfilm.m3u"
 LOGO_URL = os.getenv("LOGO_URL") or "https://i.hizliresim.com/nfphas7u.png"
 
-STATE_FILE_NAME = os.getenv("STATE_FILE_NAME", "zirvesa.json")
+STATE_FILE_NAME = os.getenv("STATE_FILE_NAME", "zirvesinema.json")
 GITHUB_STEP_SUMMARY = os.getenv("GITHUB_STEP_SUMMARY")
 
 STREAM_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
